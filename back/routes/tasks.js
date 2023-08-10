@@ -5,4 +5,4 @@ router.route('/').get((req, res) => {
     res.send('All items');
 });
 
-module.export = router;
+module.exports = router;
